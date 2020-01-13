@@ -24,18 +24,21 @@ html { font-family: 'Inter', sans-serif; }
 	position: relative;
 	width: 101%;
 	height: 64px;
-	left: -10px;
+	left: -8px;
 	top: -10px;
 	background: linear-gradient(169.95deg, #330099 -55.89%, #000099 174.37%);
 }
 
 .but_menu{
-	display: flex;
 	position: relative;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 130%;
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	
 }
 
 .logo{
@@ -48,19 +51,21 @@ html { font-family: 'Inter', sans-serif; }
 .but1{
 	background: #FFCC33;
 	border-radius: 4px;
-	padding: 12px 14px 8px 14px;
+	padding: 8px 14px 8px 14px;
 	flex-direction: row;
 	cursor: pointer;
+	border:0;
 }
 
 .but2{
 	background: rgba(255, 255, 255, 0.2);
 	border-radius: 4px;
 	flex-direction: row;
-	padding: 12px 14px 8px 14px;
+	padding: 8px 14px 8px 14px;
 	color: white;
 	margin-left: 12px;
 	cursor: pointer;
+	border:0;
 }
 
 .menu1{
@@ -425,14 +430,22 @@ h4{
 .sixth6{
 	position: relative;
 	display: flex;
-	justify-content: center;
+	justify-content: center;	
+	background: #F9F8FB;
+	border: 1px solid #EAEAEA;
+	box-sizing: border-box;
+	margin-top: 60px;
+	margin-bottom: -10px;
+	width: 101%;
+	left: -8px;
 
 }
 
 .sixth{
 	position: relative;
 	display: flex;
-	margin-top: 150px;
+	top: 0px;
+	margin-top: 0px;
 	width: 1160px;
 	font-weight: normal;
 	font-size: 16px;
@@ -440,6 +453,7 @@ h4{
 	margin-right: auto;
 	margin-left: auto;
 	justify-content: space-around;
+	margin-bottom: 0;
 }
 
 h5{
@@ -454,6 +468,7 @@ h5{
 
 .sixth_text{
 	width: 613px;
+	margin-bottom: 100px;
 }
 
 .sixth_tx{
@@ -489,6 +504,7 @@ h5{
 	position: relative;
 	left: 15px;
 	line-height: 24px;
+	margin-bottom: 70px;
 
 }
 
@@ -509,9 +525,15 @@ h5{
 	cursor: pointer;
 }
 
+.but3:hover{
+	box-shadow: 2px 2px 12px rgba(51, 0, 153, 0.4);
+	border-radius: 4px;
+	transition: 0.4s;
+}
+
 
 .seventh{
-	margin-top: 152px; 
+	margin-top: 0px; 
 	position: relative;
 	left: -8px;
 	bottom: -10px;
