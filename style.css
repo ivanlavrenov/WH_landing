@@ -379,7 +379,7 @@ h2{
 
 .video{
 	position: relative;
-	top: 30px;
+	top: 40px;
 }
 
 h3{
@@ -398,6 +398,12 @@ h4{
 	color: #330099;
 	margin-bottom: 100px; 
 }
+
+.drach_text{
+	width: 459px;
+	font-size: 16px;
+}
+
 
 .fifth{
 	margin-top: 150px;
