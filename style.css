@@ -70,8 +70,6 @@ html { font-family: 'Inter', sans-serif; }
 	cursor: pointer;
 	border:0;
 	font-weight: 600;
-	font-size: 12px;
-	line-height: 130%;
 }
 
 .menu1{
@@ -81,6 +79,7 @@ html { font-family: 'Inter', sans-serif; }
 	justify-content: space-between;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 2;
 }
 
 .menu{
@@ -106,6 +105,22 @@ html { font-family: 'Inter', sans-serif; }
 	color: #666666;
 }
 
+
+
+.m:hover:after {
+	position: relative;
+    background-color: #ffcc33;
+    display: block;
+    content: "";
+    top: 15px;
+    display: block;
+    height: 3px;
+    height: 3px;
+    top: 15px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
 .first1{
 	position: relative;
 	display: flex;
@@ -116,7 +131,7 @@ html { font-family: 'Inter', sans-serif; }
 	position: relative;
 	display: flex;
 	justify-content: center;
-	margin-top: 168px;
+	margin-top: 92px;
 	width: 1160px;
 	margin-right: auto;
 	margin-left: auto;
@@ -272,9 +287,9 @@ h2{
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 165%;
-	width: 910px;
+	width: 750px;
 	height: 400px auto;
-	font-weight: 550;
+	font-weight: 500;
 }
 
 .logos_block{
@@ -288,7 +303,7 @@ h2{
 	display: flex;
 	width: 1160px;
 	justify-content: space-between;
-	margin-top: 100px;
+	margin-top: 40px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -365,18 +380,18 @@ h2{
 	position: relative;
 	display: flex;
 	font-style: normal;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 140%;
 	top: 20px;
 }
 
 .fourth_tx{
 	width: 559px;
-	margin-left: 20px;
+	margin-left: 40px;
 	font-size: 16px;
 }
 
-.drach{
+.feedback{
 	position: relative;
 	top: 30px;
 	width: 160px;
@@ -393,7 +408,7 @@ h3{
 	font-weight: 800;
 	font-size: 24px;
 	line-height: 100%;
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 }
 
 h4{
@@ -405,9 +420,13 @@ h4{
 	margin-bottom: 100px; 
 }
 
-.drach_text{
+.feedback_text{
 	width: 459px;
 	font-size: 16px;
+}
+
+.feedback_tx{
+	margin-top: 4px;
 }
 
 
@@ -602,6 +621,8 @@ h5{
 	display: flex;
 	position: relative;
 	justify-content: center;
+	left: -100px;
+	top: 20px;
 
 }
 
@@ -612,7 +633,7 @@ h5{
 	margin-left: auto;
 	justify-content: space-between;
 	margin-top: 40px;
-	width: 1160px;
+	width: 960px;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
