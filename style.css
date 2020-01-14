@@ -4,6 +4,12 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+@font-face {
+   font-family: Gilroy; 
+   src: url(./fonts/Gilroylight.ttf); 
+   src: url(./fonts/GilroyExtraBold.ttf);
+}
+
 *{
 	font-family: Inter;
 }
@@ -143,6 +149,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 h1{
+	font-family: Gilroy;
 	width: 786px ;
 	font-style: normal;
 	font-weight: 800;
@@ -150,6 +157,8 @@ h1{
 	line-height: 120%;
 	color: #330099;
 	height: auto;
+	font-weight: 600;
+	line-height: 120%;
 }
 
 .first_text{
@@ -273,11 +282,12 @@ h1{
 }
 
 h2{
+	font-family: Gilroy;
 	font-weight: 800;
 	font-size: 48px;
 	line-height: 120%;
 	color: #330099;
-	width: 995px;
+	width: 955px;
 
 }
 
@@ -412,6 +422,7 @@ h3{
 }
 
 h4{
+	font-family: Gilroy;
 	font-weight: 800;
 	font-size: 48px;
 	line-height: 120%;
@@ -489,6 +500,7 @@ h4{
 }
 
 h5{
+	font-family: Gilroy;
 	font-style: normal;
 	font-weight: 800;
 	font-size: 48px;
