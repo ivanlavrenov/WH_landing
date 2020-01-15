@@ -841,7 +841,7 @@ input:disabled + label:before {
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 305px){
 
 .menu_img{
 	display: block;
