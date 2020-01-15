@@ -779,6 +779,10 @@ input:disabled + label:before {
 	line-height: 140%;
 }
 
+.hr_foot{
+	display: none;
+}
+
 .soc{
 	position: relative;
 	width: 208px;
@@ -1204,6 +1208,8 @@ h5{
 }
 
 .hr_foot{
+	margin-bottom: 23px;
+	margin-top: 23px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
