@@ -854,11 +854,8 @@ input:disabled + label:before {
 }
 
 
-@media screen and (max-width: 1005px){
+@media screen and (max-width: 315px){
 
-.head{
-	width: 315px;
-}
 
 .menu_img{
 	display: block;
@@ -967,6 +964,7 @@ h2{
 	font-size: 27px;
 	width: 315px;
 	height: 96px;
+	margin-bottom: 20px;
 }
 
 .thrid_text{
