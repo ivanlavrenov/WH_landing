@@ -856,6 +856,9 @@ input:disabled + label:before {
 
 @media screen and (max-width: 315px){
 
+body{
+	max-width: 315px;
+}
 
 .menu_img{
 	display: block;
