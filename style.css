@@ -553,7 +553,7 @@ mark{
 
 .name{
 	background: #FFFFFF;
-	border: 1px solid #330099;
+	border: 1px solid #EAEAEA;
 	box-sizing: border-box;
 	border-radius: 4px;
 	padding: 12px;
@@ -561,9 +561,22 @@ mark{
 	margin-top: 0;
 }
 
+.name:hover{
+	border: 1px solid #330099;
+}
+
+.phone:hover{
+	border: 1px solid #330099;
+}
+
+.e-mail:hover{
+	border: 1px solid #330099;
+}
+
+
 .phone, .e-mail{
 	background: #FFFFFF;
-	border: 1px solid #D4040D;
+	border: 1px solid #EAEAEA;
 	box-sizing: border-box;
 	border-radius: 4px;
 	padding: 12px;
@@ -841,7 +854,7 @@ input:disabled + label:before {
 }
 
 
-@media screen and (max-width: 305px){
+@media screen and (max-width: 775px){
 
 .menu_img{
 	display: block;
@@ -1213,6 +1226,7 @@ h5{
 }
 
 .hr_foot{
+	display: block;
 	margin-bottom: 23px;
 	margin-top: 23px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
