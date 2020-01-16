@@ -856,6 +856,10 @@ input:disabled + label:before {
 
 @media screen and (max-width: 1005px){
 
+.head{
+	width: 315px;
+}
+
 .menu_img{
 	display: block;
 	margin-right: 20px;
