@@ -854,10 +854,10 @@ input:disabled + label:before {
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 500px){
 
 body{
-	max-width: 1000px;
+	max-width: 500px;
 }
 
 .menu_img{
