@@ -856,6 +856,14 @@ input:disabled + label:before {
 
 @media screen and (max-width: 1200px){
 
+.head1{
+	width: 800px;
+}
+
+.head{
+	width: 103%;
+}
+
 h1{
 	font-size: 42px;
 	width: 500px;
