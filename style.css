@@ -426,6 +426,7 @@ h2{
 	padding: 0px 8px 0px 8px;
 	margin-left: 10px;
 	top: 10px;
+	width: 108px;
 }
 
 .fourth_tx{
@@ -919,7 +920,7 @@ input:disabled + label:before {
 	opacity: 70%;
 }
 
-
+/*
 @media screen and (max-width: 1200px){
 
 .head1{
@@ -1055,7 +1056,7 @@ h4{
 }
 
 }
-
+*/
 
 @media screen and (max-width: 480px){
 
@@ -1266,10 +1267,6 @@ h2{
 .fourth{
 	width: 315px;
 	height: 641px;
-	background: #FFFFFF;
-	border: 1px solid #EAEAEA;
-	box-sizing: border-box;
-	box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .fourth4{
@@ -1277,9 +1274,14 @@ h2{
 	position: relative;
 	justify-content: center;
 	align-items: center;	
-	background: white;
 	border: 0;
 	box-sizing: border-box;
+	background: #F9F8FB;
+	border: 1px solid #EAEAEA;
+	box-sizing: border-box;
+	width: 104%;
+	height: 780px;
+	margin-bottom: 90px;
 }
 
 .feedback{
@@ -1287,7 +1289,6 @@ h2{
 	width: 60px;
 	height: 60px;
 	right: 50px;
-	top: 30px;
 	margin-bottom: 0px;
 }
 
