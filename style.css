@@ -920,7 +920,7 @@ input:disabled + label:before {
 	opacity: 70%;
 }
 
-/*
+
 @media screen and (max-width: 1200px){
 
 .head1{
@@ -1056,9 +1056,9 @@ h4{
 }
 
 }
-*/
 
-@media handheld and (max-device-width: 480px){
+
+@media screen and (max-width: 480px){
 
 body{
 	max-width: auto;
