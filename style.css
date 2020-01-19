@@ -214,6 +214,7 @@ h1{
 .img_dasha{
 	position: relative;
 	right: -10px;
+	border-radius: 8px;
 }
 
 .tegs{
@@ -378,7 +379,10 @@ h2{
 	position: relative;
 	display: flex;
 	justify-content: center;
+}
 
+.demo_mob{
+	display: none;
 }
 
 .fourth4{
@@ -565,6 +569,10 @@ mark{
 	line-height: 120%;
 }
 
+.inform_mob{
+	display: none;
+}
+
 .info, .name{
 	font-style: normal;
 	font-weight: normal;
@@ -574,6 +582,7 @@ mark{
 	align-items: center;
 	color: #CCCCCC;
 }
+
 
 .name{
 	background: #FFFFFF;
@@ -1009,9 +1018,6 @@ h4{
 	width: 220px;
 }
 
-.inform{
-	display: none;
-}
 
 .but3_mob{
 	display: block;
@@ -1129,12 +1135,16 @@ h1{
 	margin-top: 80px;
 }
 
+.img_dasha{
+	height: 390px;
+}
+
 .text{
 	width: 315px;
 }
 
 .dasha{
-	display: none;
+	display: block;
 }
 
 .second{
@@ -1190,6 +1200,120 @@ h2{
 	margin-bottom: 70px;
 }
 
+input[type="checkbox"] {
+	 display: none;
+}
+ 
+label {
+	 color: #000;
+	 cursor: default;
+	 font-weight: normal;
+	 line-height: 30px;
+	 padding: 10px 0;
+	 vertical-align: middle;
+}
+ 
+label:before {
+	 content: " ";
+	 color: white;
+	 display: flex;
+	 margin-top: 15px;
+	 position: relative;
+	 text-align: center;
+	 justify-content: center;
+	 align-items: center;
+	 text-indent: 0px;
+	 width: 18px;
+	 height: 18px;
+	 background: #330099;
+	 border: 1px solid #e3e3e3;
+	 border-image: initial;
+	 vertical-align: middle;
+	 border-radius: 3px;
+	 cursor: pointer;
+}
+ 
+input:checked + label:before {
+ 	content: "\2714";
+}
+
+
+input:disabled + label:before {
+	 background: #eee;
+	 color: #aaa;
+}
+
+input[type="checkbox"] {
+	 display: none;
+}
+ 
+label {
+	 color: #000;
+	 cursor: default;
+	 font-weight: normal;
+	 line-height: 30px;
+	 padding: 10px 0;
+	 vertical-align: middle;
+}
+ 
+label:before {
+	 content: " ";
+	 color: white;
+	 display: flex;
+	 margin-top: 15px;
+	 position: relative;
+	 text-align: center;
+	 justify-content: center;
+	 align-items: center;
+	 text-indent: 0px;
+	 width: 18px;
+	 height: 18px;
+	 background: #330099;
+	 border: 1px solid #e3e3e3;
+	 border-image: initial;
+	 vertical-align: middle;
+	 border-radius: 3px;
+	 cursor: pointer;
+}
+ 
+input:checked + label:before {
+ 	content: "\2714";
+}
+
+
+input:disabled + label:before {
+	 background: #eee;
+	 color: #aaa;
+}
+
+.inform_mob{
+	display: block;
+	margin-bottom: 80px;
+	font-size: 15px;
+}
+
+
+.name_mob, .phone_mob, .e-mail_mob{
+	background: #FFFFFF;
+	border: 1px solid #EAEAEA;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 12px;
+	width: 468px;
+	margin-top: 0;
+	width: 315px;
+	color: #CCCCCC;
+}
+
+.info_mob{
+	display: flex;
+}
+
+.data_mob{
+	margin-left: 10px;
+	color: #CCCCCC;
+}
+
 .thrid_text{
 	font-size: 14px;
 	width: 315px;
@@ -1206,12 +1330,6 @@ h2{
 	display: none;
 }
 
-.logos_mob{
-	display: block;
-	width: 296.63px;
-	height: 76.15px;
-	margin-top: 10px;
-}
 
 .logos_block{
 	margin-top: 20px;
@@ -1260,6 +1378,14 @@ h2{
 	display: none;
 }
 
+.demo_mob{
+	display: block;
+	position: relative;
+	width: 314px;
+	height: 484px;
+	margin-top: -20px;
+}
+
 .fourth{
 	display: block;
 }
@@ -1280,7 +1406,7 @@ h2{
 	border: 1px solid #EAEAEA;
 	box-sizing: border-box;
 	width: 104%;
-	height: 780px;
+	height: 800px;
 	margin-bottom: 90px;
 }
 
@@ -1346,7 +1472,7 @@ h3{
 	width: 267px;
 	height: 155px;
 	left: 24px;
-	top: 32px;
+	top: 62px;
 }
 
 h4{
@@ -1382,7 +1508,7 @@ h4{
 }
 
 h5{
-	font-size: 26px;
+	font-size: 24px;
 	width: 315px;
 	margin-top: 0;
 }
@@ -1427,7 +1553,7 @@ h5{
 	display: block;
 	background: #330099;
 	border-radius: 4px;
-	width: 282px;
+	width: 315px;
 	font-weight: bold;
 	font-size: 15px;
 	line-height: 104%;
@@ -1447,7 +1573,7 @@ h5{
 
 
 .seventh{
-	width: 103%;
+	width: 104%;
 	position: relative;
 	display: block;
 	height: auto;
