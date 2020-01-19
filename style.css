@@ -1092,12 +1092,12 @@ mark{
 }
 
 .head{
-	width: 103%;
+	width: 105%;
 }
 
 .first{
 	display: block;
-	width: 315px;
+	width: auto;
 	margin-top: 10px;
 }
 
@@ -1190,7 +1190,7 @@ h1{
 	border: 1px solid #EAEAEA;
 	box-sizing: border-box;
 	left: -10px;
-	width: 104%
+	width: 105%
 }
 
 h2{
@@ -1314,17 +1314,25 @@ input:disabled + label:before {
 	color: #CCCCCC;
 }
 
-.thrid_text{
+.third_text{
 	font-size: 14px;
-	width: 315px;
+	width: 300px;
 	height: 115px;
 	margin-top: 40px;
 }
 
-.thrid{
-	display: flex;
-	justify-content: center;
+.third3{
+	position: relative;
+	margin-top: 120px;
+	margin-bottom: -80px;
 }
+
+.third{
+	width: auto;
+	display: block;
+	text-align: center;
+}
+
 
 .logos{
 	display: none;
@@ -1386,11 +1394,9 @@ input:disabled + label:before {
 	margin-top: -20px;
 }
 
-.fourth{
-	display: block;
-}
 
 .fourth{
+	display: block;
 	width: 315px;
 	height: 641px;
 }
@@ -1512,7 +1518,7 @@ h4{
 
 h5{
 	font-size: 24px;
-	width: 315px;
+	width: auto;
 	margin-top: 0;
 }
 
@@ -1531,7 +1537,7 @@ h5{
 	border: 1px solid #EAEAEA;
 	box-sizing: border-box;
 	left: -10px;
-	width: 104%
+	width: 105%
 }
 
 
@@ -1580,7 +1586,7 @@ h5{
 
 
 .seventh{
-	width: 104%;
+	width: 105%;
 	position: relative;
 	display: block;
 	height: auto;
