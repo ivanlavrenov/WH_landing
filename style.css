@@ -1457,12 +1457,15 @@ h3{
 .fourth_text{
 	display: block;
 	position: relative;
+	width: 15px;
+	margin-right: 0px;
+	right: 3px;
 }
 
 .fourth_tx{
 	position: relative;
 	bottom: 60px;
-	width: 215px;
+	width: 105px;
 	margin-right: 0px;
 }
 
@@ -1549,11 +1552,15 @@ h5{
 	display: none;
 }
 
+.top{
+	left: 15px;
+}
+
 .but3_mob{
 	display: block;
 	background: #330099;
 	border-radius: 4px;
-	width: 315px;
+	width: 295px;
 	font-weight: bold;
 	font-size: 15px;
 	line-height: 104%;
@@ -1611,5 +1618,7 @@ h5{
 	width: 315px;
 	text-align: center;
 }
+
+
 
 }
