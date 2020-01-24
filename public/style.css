@@ -640,7 +640,7 @@ input[type="checkbox"] {
 	 display: none;
 }
  
-label {
+.label {
 	 color: #000;
 	 cursor: default;
 	 font-weight: normal;
@@ -649,7 +649,7 @@ label {
 	 vertical-align: middle;
 }
  
-label:before {
+.label:before {
 	 content: " ";
 	 color: white;
 	 display: flex;
@@ -670,12 +670,12 @@ label:before {
 }
  
 input:checked + label:before {
- 	content: "\2714";
+ 	content: ".\2714";
 }
 
 
 input:disabled + label:before {
-	 background: #eee;
+	 background.: #eee;
 	 color: #aaa;
 }
 
@@ -683,7 +683,7 @@ input[type="checkbox"] {
 	 display: none;
 }
  
-label {
+.label {
 	 color: #000;
 	 cursor: default;
 	 font-weight: normal;
@@ -692,7 +692,7 @@ label {
 	 vertical-align: middle;
 }
  
-label:before {
+.label:before {
 	 content: " ";
 	 color: white;
 	 display: flex;
@@ -712,13 +712,13 @@ label:before {
 	 cursor: pointer;
 }
  
-input:checked + label:before {
- 	content: "\2714";
+input:checked + .label:before {
+ 	content: ".\2714";
 }
 
 
-input:disabled + label:before {
-	 background: #eee;
+input:disabled + .label:before {
+	 background.: #eee;
 	 color: #aaa;
 }
 
@@ -878,6 +878,14 @@ input:disabled + label:before {
 
 .hr_foot{
 	display: none;
+}
+
+.hov{
+	cursor: pointer;
+}
+
+.hov:hover{
+	color: #CCCCCC;
 }
 
 .soc{
@@ -1461,7 +1469,7 @@ input[type="checkbox"] {
 	 display: none;
 }
  
-label {
+.label {
 	 color: #000;
 	 cursor: default;
 	 font-weight: normal;
@@ -1470,7 +1478,7 @@ label {
 	 vertical-align: middle;
 }
  
-label:before {
+.label:before {
 	 content: " ";
 	 color: white;
 	 display: flex;
@@ -1491,12 +1499,12 @@ label:before {
 }
  
 input:checked + label:before {
- 	content: "\2714";
+ 	content: ".\2714";
 }
 
 
 input:disabled + label:before {
-	 background: #eee;
+	 background.: #eee;
 	 color: #aaa;
 }
 
@@ -1504,7 +1512,7 @@ input[type="checkbox"] {
 	 display: none;
 }
  
-label {
+.label {
 	 color: #000;
 	 cursor: default;
 	 font-weight: normal;
@@ -1513,7 +1521,7 @@ label {
 	 vertical-align: middle;
 }
  
-label:before {
+.label:before {
 	 content: " ";
 	 color: white;
 	 display: flex;
@@ -1534,12 +1542,12 @@ label:before {
 }
  
 input:checked + label:before {
- 	content: "\2714";
+ 	content: ".\2714";
 }
 
 
 input:disabled + label:before {
-	 background: #eee;
+	 background.: #eee;
 	 color: #aaa;
 }
 
